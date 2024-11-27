@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .will-change-transform {
+    will-change: transform;
+  }
+
+  .perspective {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+/* Optimize animations */
+* {
+  @apply transition-transform transition-opacity;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .tv-frame {
+    @apply scale-75;
+  }
+}
