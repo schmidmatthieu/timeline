@@ -12,23 +12,36 @@ interface FloatingImage {
 
 interface FloatingImagesProps {
   progress: number;
-  images: string[];
+  images?: string[];
 }
 
 export function FloatingImages({ progress, images }: FloatingImagesProps) {
   const [floatingImages, setFloatingImages] = useState<FloatingImage[]>([]);
 
   useEffect(() => {
-    const newImages = images.map((url, index) => ({
+    // Check if images array exists and has non-empty strings
+    const validImages = images?.filter(url => url && url.trim() !== '');
+    
+    if (!validImages?.length) {
+      setFloatingImages([]);
+      return;
+    }
+
+    const newImages = validImages.map((url, index) => ({
       id: index,
-      x: Math.random() * 80 + 10, // 10-90%
-      y: Math.random() * 60 + 20, // 20-80%
-      scale: Math.random() * 0.5 + 1.5, // 1.5-2.0 (larger images)
-      rotation: Math.random() * 20 - 10, // -10 to 10 degrees
+      // Position x between 5% and 20% from the left
+      x: Math.random() * 10 + 3,
+      // Position y between 10% and 75% height
+      y: Math.random() * 65 + 10,
+      scale: Math.random() * 0.5 + 1.5,
+      rotation: Math.random() * 20 - 10,
       url,
     }));
     setFloatingImages(newImages);
   }, [images]);
+
+  // If no valid images, return null
+  if (!floatingImages.length) return null;
 
   return (
     <div className="fixed inset-0 pointer-events-none">
@@ -60,7 +73,7 @@ export function FloatingImages({ progress, images }: FloatingImagesProps) {
             },
           }}
         >
-          <div className="relative w-64 h-64 rounded-xl overflow-hidden filter drop-shadow-2xl">
+          <div className="relative w-40 h-40 rounded-xl overflow-hidden filter drop-shadow-2xl">
             <div className="absolute inset-0 border-4 border-white/40 rounded-xl" />
             <img
               src={image.url}

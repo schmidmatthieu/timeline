@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react';
 import { TVFrame } from './frames/TVFrame';
 import { TVScreen } from './TVScreen';
 import { useSoundEffects } from '../../hooks/useSoundEffects';
-import type { TimelinePoint } from '../../types';
+import { useImageRatio } from '../../hooks/useImageRatio';
+import type { TimelinePoint } from '../../types/timeline';
 
 interface TVDisplayProps {
   point: TimelinePoint;
@@ -14,6 +15,8 @@ export function TVDisplay({ point, isActive }: TVDisplayProps) {
   const [isOn, setIsOn] = useState(false);
   const [showContent, setShowContent] = useState(false);
   const { playTvOn, playTvOff } = useSoundEffects();
+  const { ratio } = useImageRatio(point.tvContent.photo);
+  const isPortrait = ratio ? ratio < 1 : false;
 
   useEffect(() => {
     if (isActive) {
@@ -36,28 +39,20 @@ export function TVDisplay({ point, isActive }: TVDisplayProps) {
     setShowContent(false);
   }, [isActive, playTvOn, playTvOff]);
 
-  const getEraStyle = (year: number) => {
-    if (year < 1975) return 'retro60s';
-    if (year < 1985) return 'retro70s';
-    if (year < 1995) return 'retro80s';
-    if (year < 2010) return 'retro90s';
-    return 'modern';
-  };
-
-  const era = getEraStyle(point.year);
-
   return (
     <motion.div
-      className="fixed top-[15%] left-[35%] -translate-x-1/2 will-change-transform"
-      initial={{ opacity: 0, y: 50, scale: 0.76 }} // Increased size by 5% from 0.72
+      className={`fixed left-1/2 -translate-x-1/2 top-10 ${
+        isPortrait ? 'w-auto h-[75dvh]' : 'w-[75vw] h-auto'
+      }`}
+      initial={{ opacity: 0, y: 50, scale: 0.95 }}
       animate={{ 
         opacity: 1,
         y: 0,
-        scale: 0.76,
+        scale: 1,
       }}
       exit={{ 
         opacity: 0,
-        scale: 0.7,
+        scale: 0.95,
         transition: { 
           duration: 0.5,
           ease: "easeInOut"
@@ -71,13 +66,13 @@ export function TVDisplay({ point, isActive }: TVDisplayProps) {
         mass: 1.2
       }}
     >
-      <TVFrame era={era} scale={2.5}>
+      <TVFrame isPortrait={isPortrait}>
         <AnimatePresence mode="wait">
           {isOn && (
             <TVScreen
-              era={era}
               point={point}
               showContent={showContent}
+              isPortrait={isPortrait}
             />
           )}
         </AnimatePresence>

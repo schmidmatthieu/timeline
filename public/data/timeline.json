@@ -8,12 +8,13 @@
       "tvContent": {
         "title": "Naissance",
         "date": "1964",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/1.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/PHOTO-2024-11-27-16-00-47.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1605796308430-9d385e940b66?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 2,
@@ -25,9 +26,9 @@
         "date": "1964",
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/1.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1605796308430-9d385e940b66?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -38,12 +39,14 @@
       "tvContent": {
         "title": "Déménagement en Belgique",
         "date": "1967",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/2.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/PHOTO-2024-11-27-16-01-26.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1513622118278-bc041b3c13ed?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/libby-penner-T6hnY1p4q3I-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1600377140286-dd5f6a1b7091?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/une-fougronette-charg-pour-un-d-m-nagement-1.svg"
+      ],
+      "hidden": false,
+      "hideFloatingImages": true
     },
     {
       "id": 4,
@@ -55,10 +58,12 @@
         "date": "1978",
         "photo": ""
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/un-enfant-de-14-ans-quitte-sa-maison-pour-prendre-.svg"
+      ],
+      "hidden": false,
+      "hideFloatingImages": true
     },
     {
       "id": 5,
@@ -71,9 +76,9 @@
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/2.jpeg",
         "photo2": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/2-1.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -84,11 +89,11 @@
       "tvContent": {
         "title": "Anne-Marie et Dominique Scheibel",
         "date": "1983",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/3.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/3.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -102,9 +107,9 @@
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/4.jpeg",
         "photo2": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/4-1.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -115,42 +120,44 @@
       "tvContent": {
         "title": "Mariage",
         "date": "1985",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/5.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/PHOTO-2024-11-27-16-02-10.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/mariage.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 9,
       "year": 1986,
       "position": 8,
-      "title": "Relationship: Roudy",
+      "title": "Roudy",
       "tvContent": {
-        "title": "Meeting Roudy",
+        "title": "Roudy",
         "date": "1986",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/6.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/5.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
       "id": 10,
       "year": 1987,
       "position": 9,
-      "title": "Relationship: Séphora",
+      "title": "Séphora",
       "tvContent": {
-        "title": "Meeting Séphora",
+        "title": "Séphora",
         "date": "1987",
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/6.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 11,
@@ -158,14 +165,15 @@
       "position": 10,
       "title": "Études biblique à la Porte Ouverte",
       "tvContent": {
-        "title": "Formation Spirituelle",
+        "title": "Études biblique à la Porte Ouverte",
         "date": "1988",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/7.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/PHOTO-2024-11-27-16-03-06.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/photo-1625998574253-d597eef4fd4a.avif",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/tude-biblique-en-france.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 12,
@@ -173,14 +181,15 @@
       "position": 11,
       "title": "Matthieu",
       "tvContent": {
-        "title": "Naissance de Matthieu",
+        "title": "Matthieu",
         "date": "1989",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/7.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/7.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/photo-1625998574253-d597eef4fd4a.avif",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 13,
@@ -188,14 +197,15 @@
       "position": 12,
       "title": "Naomi",
       "tvContent": {
-        "title": "Naissance de Naomi",
+        "title": "Naomi",
         "date": "1991",
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/8.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/noah-dustin-von-weissenfluh-3eM23mlkch8-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 14,
@@ -203,14 +213,15 @@
       "position": 13,
       "title": "Départ à vie en mission au Centre-Afrique",
       "tvContent": {
-        "title": "Mission en Afrique",
+        "title": "Départ à vie en mission au Centre-Afrique",
         "date": "1991",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/9.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/PHOTO-2024-11-27-16-04-23.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/kaysha-StJWD4ci8wY-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/d-part-en-mission-en-afrique-d-un-jeune-couple-ave.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 15,
@@ -218,14 +229,15 @@
       "position": 14,
       "title": "Création de la Marmotte à Lausanne",
       "tvContent": {
-        "title": "La Marmotte",
+        "title": "Création de la Marmotte à Lausanne",
         "date": "1993",
-        "photo": ""
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/La-Marmotte-allume.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/snapsaga-WyexUIm5IkQ-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1481277542470-605612bd2d61?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/fondation-d-une-place-d-accueil-pour-les-sans-abri.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 16,
@@ -233,14 +245,15 @@
       "position": 15,
       "title": "Jaël",
       "tvContent": {
-        "title": "Naissance de Jaël",
+        "title": "Jaël",
         "date": "1993",
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/9.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/snapsaga-WyexUIm5IkQ-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 17,
@@ -248,28 +261,29 @@
       "position": 16,
       "title": "Reprise du poste de l'Armée du Salut à Fleurier",
       "tvContent": {
-        "title": "Nouveau Poste",
+        "title": "Reprise du poste de l'Armée du Salut à Fleurier",
         "date": "1995",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/10.jpg"
+        "photo": ""
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/pasteur-l-arm-e-du-salut.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 18,
       "year": 1996,
       "position": 17,
-      "title": "Etienne Hubert et Adélia",
+      "title": "Hubert et Adélia Etienne",
       "tvContent": {
-        "title": "Nouvelle Rencontre",
+        "title": "Hubert et Adélia Etienne",
         "date": "1996",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/11.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/10.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -278,28 +292,29 @@
       "position": 18,
       "title": "Romain",
       "tvContent": {
-        "title": "Naissance de Romain",
+        "title": "Romain",
         "date": "1996",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/11.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/11.jpeg",
+        "photo2": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/11-1.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
       "id": 20,
       "year": 1998,
       "position": 19,
-      "title": "Jacquier Isabelle et Pierre",
+      "title": "Isabelle et Pierre Jecquier",
       "tvContent": {
-        "title": "Nouvelle Amitié",
+        "title": "Isabelle et Pierre Jecquier",
         "date": "1998",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/12.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/12.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -308,14 +323,15 @@
       "position": 20,
       "title": "Implantation du SEL puis Compassion en Suisse",
       "tvContent": {
-        "title": "Nouveau Projet",
+        "title": "Implantation du SEL puis Compassion en Suisse",
         "date": "2000",
         "photo": ""
       },
-      "background": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/travail-dans-une-oeuvre-humanitaire-en-suisse.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 22,
@@ -323,28 +339,30 @@
       "position": 21,
       "title": "Reprise de la Communauté Evangélique des Ponts-de-Martel",
       "tvContent": {
-        "title": "Nouvelle Communauté",
+        "title": "Reprise de la Communauté Evangélique des Ponts-de-Martel",
         "date": "2000",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/13.jpg"
+        "photo": ""
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/joebrau-photos-LtJhCuYDVTA-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/pasteur-d-une-glise-vang-lique-dans-la-campagne.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 23,
       "year": 2000,
       "position": 22,
-      "title": "Henchoz",
+      "title": "Janine et Mathieu Henchoz",
       "tvContent": {
-        "title": "Rencontre Henchoz",
+        "title": "Janine et Mathieu Henchoz",
         "date": "2000",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/13.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/13.jpg",
+        "photo2": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/13-1.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/joebrau-photos-LtJhCuYDVTA-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -353,14 +371,15 @@
       "position": 23,
       "title": "Travail au Foyer Andrés",
       "tvContent": {
-        "title": "Nouveau Travail",
+        "title": "Travail au Foyer Andrés",
         "date": "2000",
         "photo": ""
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/homme-travailleur-social-qui-aide-des-toxicomanes-.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 25,
@@ -368,13 +387,13 @@
       "position": 24,
       "title": "Christiane Jaton",
       "tvContent": {
-        "title": "Rencontre Christiane",
+        "title": "Christiane Jaton",
         "date": "2004",
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/14.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -383,13 +402,13 @@
       "position": 25,
       "title": "Fred",
       "tvContent": {
-        "title": "Rencontre Fred",
+        "title": "Fred",
         "date": "2004",
         "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/15.jpg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
     },
     {
@@ -398,30 +417,279 @@
       "position": 26,
       "title": "Travail à la FREE",
       "tvContent": {
-        "title": "Nouveau Poste à la FREE",
+        "title": "Travail à la FREE",
         "date": "2007",
         "photo": ""
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
-      ]
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/animateur-jeunesse-pour-des-glises-en-suisse.svg"
+      ],
+      "hideFloatingImages": true
     },
     {
       "id": 28,
       "year": 2007,
       "position": 27,
-      "title": "Crelier Pascal et Christelle",
+      "title": "Pascal et Christelle Crelier",
       "tvContent": {
-        "title": "Rencontre Pascal et Christelle",
+        "title": "Pascal et Christelle Crelier",
         "date": "2007",
-        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/16.jpg"
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/16.jpeg"
       },
-      "background": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=1920&h=1080&fit=crop",
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
       "floatingImages": [
-        "https://images.unsplash.com/photo-1517456215183-9a2c3a748fb4?w=400&h=400&fit=crop"
+        ""
       ]
-    }    
+    },
+    {
+      "id": 29,
+      "year": 2007,
+      "position": 28,
+      "title": "Philippe et Maya Botteman",
+      "tvContent": {
+        "title": "Philippe et Maya Botteman",
+        "date": "2007",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/17.jpeg",
+        "photo2": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/17-1.jpeg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 30,
+      "year": 2007,
+      "position": 29,
+      "title": "Jean-Pierre et Brigitte Junod",
+      "tvContent": {
+        "title": "Jean-Pierre et Brigitte Junod",
+        "date": "2007",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/18.jpeg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 31,
+      "year": 2008,
+      "position": 30,
+      "title": "Joas Crelier",
+      "tvContent": {
+        "title": "Joas Crelier",
+        "date": "2008",
+        "photo": ""
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 32,
+      "year": 2010,
+      "position": 31,
+      "title": "Raphaël",
+      "tvContent": {
+        "title": "Raphaël",
+        "date": "2010",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/20.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 33,
+      "year": 2011,
+      "position": 32,
+      "title": "Jean-Daniel et Thérèse Calame",
+      "tvContent": {
+        "title": "Jean-Daniel et Thérèse Calame",
+        "date": "2011",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/21.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 34,
+      "year": 2013,
+      "position": 33,
+      "title": "Christian et Catherine Nyffeneger",
+      "tvContent": {
+        "title": "Christian et Catherine Nyffeneger",
+        "date": "2013",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/22.jpg",
+        "photo2": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/22-1.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 35,
+      "year": 2013,
+      "position": 34,
+      "title": "Fabio",
+      "tvContent": {
+        "title": "Fabio",
+        "date": "2013",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/23.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/daniel-r-3lU_L7xlZ1E-unsplash-scaled.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 36,
+      "year": 2019,
+      "position": 35,
+      "title": "Gabriel",
+      "tvContent": {
+        "title": "Gabriel",
+        "date": "2019",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/24.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
+    },
+    {
+      "id": 37,
+      "year": 2020,
+      "position": 36,
+      "title": "Éloan",
+      "tvContent": {
+        "title": "Éloan",
+        "date": "2020",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/25.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
+    },
+    {
+      "id": 38,
+      "year": 2021,
+      "position": 37,
+      "title": "Travail au SCTP comme Curateur",
+      "tvContent": {
+        "title": "Travail au SCTP comme Curateur",
+        "date": "2021",
+        "photo": ""
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/homme-travaillant-dans-un-bureau.svg"
+      ],
+      "hideFloatingImages": true
+    },
+    {
+      "id": 39,
+      "year": 2021,
+      "position": 38,
+      "title": "Chiara",
+      "tvContent": {
+        "title": "Chiara",
+        "date": "2021",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/26.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
+    },
+    {
+      "id": 40,
+      "year": 2021,
+      "position": 39,
+      "title": "Ivan",
+      "tvContent": {
+        "title": "Ivan",
+        "date": "2021",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/27.jpg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 41,
+      "year": 2022,
+      "position": 40,
+      "title": "Maël",
+      "tvContent": {
+        "title": "Maël",
+        "date": "2022",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/28.jpeg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
+    },
+    {
+      "id": 42,
+      "year": 2022,
+      "position": 41,
+      "title": "Béatrice et Christophe Zurcher",
+      "tvContent": {
+        "title": "Béatrice et Christophe Zurcher",
+        "date": "2022",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/29.jpeg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 43,
+      "year": 2022,
+      "position": 42,
+      "title": "Jenny",
+      "tvContent": {
+        "title": "Jenny",
+        "date": "2022",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/30c.png"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        ""
+      ]
+    },
+    {
+      "id": 44,
+      "year": 2023,
+      "position": 43,
+      "title": "Anäé",
+      "tvContent": {
+        "title": "Anäé",
+        "date": "2023",
+        "photo": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/31.jpeg"
+      },
+      "background": "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/01-La-Cote-aux-Fees.jpg",
+      "floatingImages": [
+        "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/b-b-dans-un-coufin.svg"
+      ],
+      "hideFloatingImages": true
+    }
   ],
   "backgrounds": [
     "https://images.unsplash.com/photo-1605796308430-9d385e940b66?w=1920&h=1080&fit=crop",
@@ -431,9 +699,9 @@
   "avatars": [
     "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar1-2.png",
     "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar2-1.png",
-    "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar3.png",
+    "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar3b.png",
     "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar4.png",
     "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar5.png",
-    "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar6.png",
+    "https://matthieu.arkstudio.ch/wp-content/uploads/2024/11/avatar6.png"
   ]
 }

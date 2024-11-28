@@ -1,24 +1,5 @@
-import { Howl } from 'howler';
 import { useCallback, useEffect, useRef } from 'react';
-
-const SOUNDS = {
-  move: new Howl({
-    src: ['https://assets.codepen.io/189524/move.mp3'],
-    volume: 0.3,
-  }),
-  tvOn: new Howl({
-    src: ['https://assets.codepen.io/189524/tv-on.mp3'],
-    volume: 0.4,
-  }),
-  tvOff: new Howl({
-    src: ['https://assets.codepen.io/189524/tv-off.mp3'],
-    volume: 0.4,
-  }),
-  transition: new Howl({
-    src: ['https://assets.codepen.io/189524/transition.mp3'],
-    volume: 0.2,
-  }),
-};
+import { SOUND_EFFECTS } from '../utils/sound';
 
 export function useSoundEffects() {
   const isMovingRef = useRef(false);
@@ -27,9 +8,9 @@ export function useSoundEffects() {
   const playMove = useCallback(() => {
     if (!isMovingRef.current) {
       isMovingRef.current = true;
-      SOUNDS.move.play();
+      SOUND_EFFECTS.move.play();
       moveIntervalRef.current = window.setInterval(() => {
-        SOUNDS.move.play();
+        SOUND_EFFECTS.move.play();
       }, 300);
     }
   }, []);
@@ -44,15 +25,15 @@ export function useSoundEffects() {
   }, []);
 
   const playTvOn = useCallback(() => {
-    SOUNDS.tvOn.play();
+    SOUND_EFFECTS.tvOn.play();
   }, []);
 
   const playTvOff = useCallback(() => {
-    SOUNDS.tvOff.play();
+    SOUND_EFFECTS.tvOff.play();
   }, []);
 
   const playTransition = useCallback(() => {
-    SOUNDS.transition.play();
+    SOUND_EFFECTS.transition.play();
   }, []);
 
   useEffect(() => {
