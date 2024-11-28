@@ -1,9 +1,11 @@
-import { API_ENDPOINTS } from './constants';
 import type { TimelineData } from '../types/timeline';
+
+const isLocalhost = window.location.hostname === 'localhost';
+const API_BASE = isLocalhost ? 'http://localhost:3001' : '';
 
 export async function fetchTimelineData(): Promise<TimelineData> {
   try {
-    const response = await fetch('http://localhost:3001/api/timeline');
+    const response = await fetch('/data/timeline.json');
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -19,7 +21,11 @@ export async function fetchTimelineData(): Promise<TimelineData> {
 
 export async function saveTimelineData(data: TimelineData): Promise<void> {
   try {
-    const response = await fetch('http://localhost:3001/api/timeline', {
+    const endpoint = isLocalhost 
+      ? `${API_BASE}/api/timeline`
+      : '/.netlify/functions/save-timeline';
+
+    const response = await fetch(endpoint, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -28,13 +34,10 @@ export async function saveTimelineData(data: TimelineData): Promise<void> {
     });
 
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error('Failed to save timeline data');
     }
-
-    // No need to reload the page, just update the state
-    return;
   } catch (error) {
     console.error('Failed to save timeline data:', error);
-    throw new Error('Failed to save timeline data. Please try again later.');
+    throw error;
   }
 }

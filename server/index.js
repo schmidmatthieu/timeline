@@ -9,7 +9,7 @@ const PORT = 3001;
 
 app.use(express.json());
 
-// Enable CORS
+// Enable CORS only for local development
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
@@ -33,6 +33,12 @@ app.post('/api/timeline', async (req, res) => {
   try {
     const data = JSON.stringify(req.body, null, 2);
     await writeFile(join(__dirname, '../public/data/timeline.json'), data, 'utf8');
+    // Also update the dist directory if it exists
+    try {
+      await writeFile(join(__dirname, '../dist/data/timeline.json'), data, 'utf8');
+    } catch (e) {
+      // Ignore error if dist directory doesn't exist
+    }
     res.json({ message: 'Timeline data updated successfully' });
   } catch (error) {
     console.error('Error writing timeline data:', error);
@@ -41,5 +47,5 @@ app.post('/api/timeline', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Development server running on port ${PORT}`);
 });
